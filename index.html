@@ -1,0 +1,33 @@
+
+<!Doctype html>
+<html>
+
+	<head>
+		<title>test</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href="snake.png">
+	</head>
+
+	<body>
+
+		<div class='scoreBoard'> </div>
+		<div class='startPop'> <br>Choose the difficulty: 
+			<hr>
+			<br>	
+			<button type='button' class='Newbie' onclick='newbieStart()'> Newbie </button>
+			<button type='button' class='Expert' onclick='expertStart()'> Expert </button>
+			<button type='button' class='Master' onclick='masterStart()'> Master </button>
+			<button type='button' class='Alien' onclick='alienStart()'> Alien </button>
+		</div>
+		<div class='overlay'> </div>
+
+		<div class='lostPop'> <br>You lost!! Try harder next time!
+			<hr>
+			<br>
+			<button type='submit' class='submit' onclick='reStart()'> restart </button>
+		</div>
+
+		<script src = 'main.js'></script>
+	</body>
+	
+</html>	
